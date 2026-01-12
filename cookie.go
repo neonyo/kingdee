@@ -4,7 +4,7 @@ import (
 	"context"
 	"encoding/json"
 	"github.com/imroc/req/v3"
-	"github.com/muloop/kingdee/object"
+	"github.com/neonyo/kingdee/object"
 	"github.com/redis/go-redis/v9"
 	"net/http"
 	"time"

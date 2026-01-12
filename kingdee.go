@@ -3,7 +3,7 @@ package kingdee
 import (
 	"context"
 	"github.com/imroc/req/v3"
-	"github.com/muloop/kingdee/object"
+	"github.com/neonyo/kingdee/object"
 )
 
 type KingDee struct {
