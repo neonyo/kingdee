@@ -3,11 +3,12 @@ package kingdee
 import (
 	"context"
 	"encoding/json"
+	"net/http"
+	"time"
+
 	"github.com/imroc/req/v3"
 	"github.com/neonyo/kingdee/object"
 	"github.com/redis/go-redis/v9"
-	"net/http"
-	"time"
 )
 
 type Cookie struct {

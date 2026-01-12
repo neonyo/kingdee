@@ -2,7 +2,9 @@ package kingdee
 
 import (
 	"context"
+
 	"github.com/imroc/req/v3"
+
 	"github.com/neonyo/kingdee/object"
 )
 
