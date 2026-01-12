@@ -74,12 +74,12 @@ type ExecuteBillQueryRequest struct {
 }
 
 type ExecuteBillQueryData struct {
-	FormId       string   `json:"FormId"`
-	FieldKeys    string   `json:"FieldKeys"`
-	FilterString []string `json:"FilterString,omitempty"`
-	OrderString  int64    `json:"OrderString,omitempty"`
-	TopRowCount  int64    `json:"TopRowCount,omitempty"`
-	StartRow     int64    `json:"StartRow,omitempty"`
-	Limit        int64    `json:"Limit,omitempty"`
-	SubSystemId  int64    `json:"SubSystemId,omitempty"`
+	FormId       string `json:"FormId"`
+	FieldKeys    string `json:"FieldKeys"`
+	FilterString string `json:"FilterString,omitempty"`
+	OrderString  int64  `json:"OrderString,omitempty"`
+	TopRowCount  int64  `json:"TopRowCount,omitempty"`
+	StartRow     int64  `json:"StartRow,omitempty"`
+	Limit        int64  `json:"Limit,omitempty"`
+	SubSystemId  int64  `json:"SubSystemId,omitempty"`
 }
