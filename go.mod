@@ -1,4 +1,4 @@
-module github.com/muloop/kingdee
+module github.com/neonyo/kingdee
 
 go 1.25.0
 
