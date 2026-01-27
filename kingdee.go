@@ -61,8 +61,8 @@ func (k *KingDee) Submit(formId string, data object.SubmitData, resp any) *req.R
 	body, k.err = k.json.Marshal(params)
 	return k.call(SUBMIT_API, body, resp)
 }
-func (k *KingDee) Audit(formId string, data object.SubmitData, resp any) *req.Response {
-	var params object.SubmitRequest
+func (k *KingDee) Audit(formId string, data object.AuditData, resp any) *req.Response {
+	var params object.AuditRequest
 	params.FormId = formId
 	params.Data = data
 	var body string
